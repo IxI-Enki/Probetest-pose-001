@@ -4,15 +4,15 @@
   {
     static void Main()
     {    /// VARIABLES:
-      int a, b, c,              ///  input: a:3 , b:8 , c:5
-         a2, b2, c2;
+      int a,  b,  c,                ///  input: a:3 , b:8 , c:5
+          a2, b2, c2;
       Console.Write("\n Wert a eingeben:  ");
       a = Convert.ToInt32(Console.ReadLine());
       Console.Write("\n Wert b eingeben:  ");
       b = Convert.ToInt32(Console.ReadLine());
       Console.Write("\n Wert c eingeben:  ");
       c = Convert.ToInt32(Console.ReadLine());
-      a2 = a; b2 = b; c2 = c;     ///  save variables for a second codeblock
+      a2 = a; b2 = b; c2 = c;       ///  save variables for a second codeblock
       /* ORIGINAL CODE: */
       if (b == 0)
       { a = a * c; }
