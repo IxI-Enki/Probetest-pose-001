@@ -90,4 +90,99 @@
 } 
 ```
 
----  
+## *3*)
+
+``` c#
+﻿namespace ErsterProbetest3
+{
+  class Program
+  {
+    static void Main()
+    {
+      /* VARIABLES: */
+      int days, month;
+
+      Console.Write($"\n Monat (1-12) eingeben:  ");          
+      month = Convert.ToInt32(Console.ReadLine());
+      switch (month)                       
+      {
+        case 1:     ///  Jänner
+        case 3:     ///  März
+        case 5:     ///  Mai
+        case 7:     ///  Juli
+        case 8:     ///  August
+        case 10:    ///  Oktober
+        case 12:    ///  Dezember
+          days = 31;
+          break;
+        case 4:     ///  April  
+        case 6:     ///  Juni
+        case 9:     ///  September
+        case 11:    ///  November
+          days = 30;
+          break;
+        case 2:     ///  Februar
+          days = 28;
+          break;
+        default:
+          days = -1;
+          break;
+      }
+      if (days == -1)
+      {
+        Console.Write("\n ungültige Eingabe! ");
+      }
+      else
+        Console.WriteLine($"\n Der {month}. Monat hat {days}Tage. ");
+    }
+  }
+}
+```
+
+## *4*) 
+
+``` c#
+﻿namespace ErsterProbetest4
+{
+  class Program
+  {
+    static void Main()
+    {    /// VARIABLES:
+      int a,  b,  c,                ///  input: a:3 , b:8 , c:5
+          a2, b2, c2;
+      Console.Write("\n Wert a eingeben:  ");
+      a = Convert.ToInt32(Console.ReadLine());
+      Console.Write("\n Wert b eingeben:  ");
+      b = Convert.ToInt32(Console.ReadLine());
+      Console.Write("\n Wert c eingeben:  ");
+      c = Convert.ToInt32(Console.ReadLine());
+      a2 = a; b2 = b; c2 = c;       ///  save variables for a second codeblock
+      /* ORIGINAL CODE: */
+      if (b == 0)
+      { a = a * c; }
+      else if (c != 0)
+      { a = a * b + 2 * c; }
+      else
+        a = a * b;
+      Console.Write($"\n Wert a: {a} \n\n Neuer Code:  ");   ///  output a:34
+      /* SHORTENED CODE */
+      if (b2 == 0)
+      { a2 = a2 * c2; }
+      else
+      { a2 = a2 * b2;
+        if (c2 != 0)
+        { a2 = a2 + 2 * c2; } }
+      Console.Write($"\n Wert a: {a}");   ///  output a:34
+    }
+  }
+}
+
+```
+
+## *5*)
+  
+``` c#
+
+```
+
+
