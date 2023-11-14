@@ -16,6 +16,7 @@
         j++;
         Console.Write($"\n i={i}  &  j={j} ");
       } while (i < 200);
+      Console.Write($"\n Schleife A terminiert! \n");
 
       /* LOOP B: */
       Console.Write("\n zweite Schleife: ");
@@ -26,6 +27,7 @@
         j--;
         Console.Write($"\n i:{i}  &  j:{j}  --> i+j:{i+j}");
       }
+      Console.Write($"\n Schleife B terminiert! \n");
     }
   }
 }
