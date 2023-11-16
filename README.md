@@ -6,7 +6,7 @@
 -------------------------------
 #### **SPOILER**: 
 # Nummer 4 kann noch weiter "vereinfacht" werden: 
-```c
+```cs
 a *= ( b == 0 ) ? c : b + ( c != 0 ) ? 2 * c : 0;
 ```
 
