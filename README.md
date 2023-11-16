@@ -7,7 +7,7 @@
 #### **SPOILER**: 
 # Nummer 4 ... FINALE LÖSUNG:
 ```c#
-a = (b == 0) ? a * c : (c != 0) ? a * b + 2 * c : a * b;
+a = (b == 0) ? 2 * c : (c != 0) ? a * b + 2 * c : a * b;
 ```
 
 ## handwritten:  
