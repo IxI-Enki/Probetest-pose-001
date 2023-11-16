@@ -28,7 +28,7 @@
       { a2 = a2 * b2;
         if (c2 != 0)
         { a2 = a2 + 2 * c2; } }
-      Console.Write($"\n Wert a: {a}");   ///  output a:34
+      Console.Write($"\n Wert a: {a2}");   ///  output a:34
     }
   }
 }
