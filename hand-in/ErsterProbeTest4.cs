@@ -5,7 +5,8 @@
     static void Main()
     {    /// VARIABLES:
       int a,  b,  c,                ///  input: a:3 , b:8 , c:5
-          a2, b2, c2;
+          a2, b2, c2,
+          a3, b3, c3;
       Console.Write("\n Wert a eingeben:  ");
       a = Convert.ToInt32(Console.ReadLine());
       Console.Write("\n Wert b eingeben:  ");
