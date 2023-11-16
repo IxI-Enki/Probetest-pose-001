@@ -13,6 +13,7 @@
       Console.Write("\n Wert c eingeben:  ");
       c = Convert.ToInt32(Console.ReadLine());
       a2 = a; b2 = b; c2 = c;       ///  save variables for a second codeblock
+      a3 = a; b3 = b; c3 = c;       ///  save variables for a third codeblock
       /* ORIGINAL CODE: */
       if (b == 0)
       { a = 2 * c; }
