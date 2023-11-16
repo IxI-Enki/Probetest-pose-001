@@ -5,10 +5,7 @@
 
 -------------------------------
 #### **SPOILER**: 
-# Nummer 4 kann noch weiter "vereinfacht" werden: 
-```c#
-a *= ( b == 0 ) ? c : b + ( c != 0 ) ? 2 * c : 0;
-```
+# Nummer 4 ... keine Ahnung ob das noch vereinfacht werden kann
 
 ## handwritten:  
 ![2](https://github.com/IxI-Enki/Probetest-pose-001/assets/138018029/4b53a284-61d5-432c-98d4-2f34d6a6094d)  
