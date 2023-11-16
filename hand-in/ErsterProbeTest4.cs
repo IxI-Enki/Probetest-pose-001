@@ -15,7 +15,7 @@
       a2 = a; b2 = b; c2 = c;       ///  save variables for a second codeblock
       /* ORIGINAL CODE: */
       if (b == 0)
-      { a = a * c; }
+      { a = 2 * c; }
       else if (c != 0)
       { a = a * b + 2 * c; }
       else
@@ -23,12 +23,15 @@
       Console.Write($"\n Wert a: {a} \n\n Neuer Code:  ");   ///  output a:34
       /* SHORTENED CODE */
       if (b2 == 0)
-      { a2 = a2 * c2; }
+      { a2 = 2 * c2; }
       else
       { a2 = a2 * b2;
         if (c2 != 0)
         { a2 = a2 + 2 * c2; } }
-      Console.Write($"\n Wert a: {a2}");   ///  output a:34
+      Console.Write($"\n Wert a2: {a2} \n\n Neuester Code:  ");   ///  output a:34
+      /* EVEN SHORTER CODE */
+      a3 = (b3 == 0) ? 2 * c3 : (c3 != 0) ? a3 * b3 + 2 * c3 : a3 * b3; 
+      Console.Write($"\n Wert a3: {a3}");   ///  output a:34
     }
   }
 }
