@@ -18,7 +18,7 @@
 ### Nummer 1:
 
 ```c#  
-//  decline variables:
+//  declare variables:
 double x, y, z;
 /* CHECK VARIABLES: */
 //  test the three inputs against each other, if all three 
