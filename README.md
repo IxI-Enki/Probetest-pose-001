@@ -95,7 +95,7 @@ Console.Write("\n 3 verschiedene Werte!"); }
 ### Nummer 4:
 
 ```c#
-   a = (b == 0) ? 2 * c : (c != 0) ? a * b + 2 * c : a * b;
+   a = a * b + 2 * c;
 ```
 
 ### Nummer 5:
